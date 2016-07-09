@@ -13,6 +13,9 @@
 @import ImageIO;
 
 #import <Pushwoosh/PushNotificationManager.h>
+#import <Fabric/Fabric.h>
+#import <DigitsKit/DigitsKit.h>
+
 
 @interface AppDelegate ()
 
@@ -23,6 +26,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Fabric with:@[[Digits class]]];
+
     
     //-----------PUSHWOOSH PART-----------
     // set custom delegate for push handling, in our case - view controller

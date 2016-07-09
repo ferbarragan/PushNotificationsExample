@@ -18,6 +18,10 @@
 		AAF894FE1D306FCF00E9FE87 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AAF894FD1D306FCF00E9FE87 /* Podfile */; };
 		AAF895001D30746400E9FE87 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF894FF1D30746400E9FE87 /* libz.tbd */; };
 		AAF895021D30748900E9FE87 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF895011D30748900E9FE87 /* libstdc++.tbd */; };
+		AAF895081D30897100E9FE87 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF895041D30897100E9FE87 /* Fabric.framework */; };
+		AAF895091D30897100E9FE87 /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF895051D30897100E9FE87 /* DigitsKit.framework */; };
+		AAF8950A1D30897100E9FE87 /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAF895061D30897100E9FE87 /* DigitsKitResources.bundle */; };
+		AAF8950B1D30897100E9FE87 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF895071D30897100E9FE87 /* TwitterCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		AAF894FD1D306FCF00E9FE87 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = PushNotificationsExample/Podfile; sourceTree = "<group>"; };
 		AAF894FF1D30746400E9FE87 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		AAF895011D30748900E9FE87 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		AAF895041D30897100E9FE87 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		AAF895051D30897100E9FE87 /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitsKit.framework; sourceTree = "<group>"; };
+		AAF895061D30897100E9FE87 /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
+		AAF895071D30897100E9FE87 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		C9A44920FEF10F1EE61F17FC /* Pods-PushNotificationsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationsExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationsExample/Pods-PushNotificationsExample.release.xcconfig"; sourceTree = "<group>"; };
 		CBA7C21B79D1AA9C6906E00E /* Pods-PushNotificationsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationsExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationsExample/Pods-PushNotificationsExample.debug.xcconfig"; sourceTree = "<group>"; };
 		D1BD926D90A0BDEF4C3F2B5B /* Pods_PushNotificationsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotificationsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,8 +54,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAF895021D30748900E9FE87 /* libstdc++.tbd in Frameworks */,
+				AAF8950B1D30897100E9FE87 /* TwitterCore.framework in Frameworks */,
 				AAF895001D30746400E9FE87 /* libz.tbd in Frameworks */,
 				30749934F684101E2CC19A4B /* Pods_PushNotificationsExample.framework in Frameworks */,
+				AAF895081D30897100E9FE87 /* Fabric.framework in Frameworks */,
+				AAF895091D30897100E9FE87 /* DigitsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +87,10 @@
 		AAF894D51D306D2800E9FE87 = {
 			isa = PBXGroup;
 			children = (
+				AAF895041D30897100E9FE87 /* Fabric.framework */,
+				AAF895051D30897100E9FE87 /* DigitsKit.framework */,
+				AAF895061D30897100E9FE87 /* DigitsKitResources.bundle */,
+				AAF895071D30897100E9FE87 /* TwitterCore.framework */,
 				AAF894E01D306D2800E9FE87 /* PushNotificationsExample */,
 				AAF894FD1D306FCF00E9FE87 /* Podfile */,
 				AAF894DF1D306D2800E9FE87 /* Products */,
@@ -146,6 +161,7 @@
 				AAF894DC1D306D2800E9FE87 /* Resources */,
 				2C8814D6620E8232210D0E97 /* [CP] Embed Pods Frameworks */,
 				D4E6AD70D19EA35CFB7F3142 /* [CP] Copy Pods Resources */,
+				AAF895031D30895A00E9FE87 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -194,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF8950A1D30897100E9FE87 /* DigitsKitResources.bundle in Resources */,
 				AAF894F41D306D2800E9FE87 /* LaunchScreen.storyboard in Resources */,
 				AAF894F11D306D2800E9FE87 /* Assets.xcassets in Resources */,
 				AAF894FE1D306FCF00E9FE87 /* Podfile in Resources */,
@@ -233,6 +250,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotificationsExample/Pods-PushNotificationsExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		AAF895031D30895A00E9FE87 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 4d8ff1006c2eb6a23e66fcd507c49740da177699 1e3917a49b8ea8af0a97490d45ea0d332a984942bdd5742ad8ac119ae2b60b8c";
 		};
 		D4E6AD70D19EA35CFB7F3142 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -374,6 +404,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PushNotificationsExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barragan.PushNotifyExample2016;
@@ -389,6 +423,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PushNotificationsExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barragan.PushNotifyExample2016;
