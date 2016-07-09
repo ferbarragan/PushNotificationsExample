@@ -167,7 +167,7 @@
 				TargetAttributes = {
 					AAF894DD1D306D2800E9FE87 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = RS366PBKK3;
+						DevelopmentTeam = QXF33N93KH;
 					};
 				};
 			};
@@ -376,9 +376,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PushNotificationsExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.barragan.PushNotificationsExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barragan.PushNotifyExample2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "1f1e9c6b-8ac8-45f6-a6f0-7906dcd1c767";
 			};
 			name = Debug;
 		};
@@ -391,9 +391,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PushNotificationsExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.barragan.PushNotificationsExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barragan.PushNotifyExample2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "1f1e9c6b-8ac8-45f6-a6f0-7906dcd1c767";
 			};
 			name = Release;
 		};
